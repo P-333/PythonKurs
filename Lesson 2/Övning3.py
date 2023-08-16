@@ -21,8 +21,9 @@ if antalMinuterTillSlut < 1:
     print("Du måste skriva ett tal större än 1")
     sys.exit("Fel tid angiven")
 
-endHour = (startTidTimme + (antalMinuterTillSlut // 60)) % 24
+
+
+endHour = (startTidTimme + ((antalMinuterTillSlut + startTidMinut) // 60)) % 24
 endMinut = (startTidMinut + antalMinuterTillSlut) % 60
 
 print(str(endHour) + ":" + str(endMinut))
-
