@@ -6,8 +6,8 @@ if (income < 85528):
 else:
     incomeAfterPrelTax = income - 14839
     if (incomeAfterPrelTax > 85528):
-        income2 = incomeAfterPrelTax - 85528
-        tax = (income2 * 0.32) + 14839
+        incomeOverLimit = incomeAfterPrelTax - 85528
+        tax = (incomeOverLimit * 0.32) + 14839
         print(round(tax))
     else:
         print(round(14839))
