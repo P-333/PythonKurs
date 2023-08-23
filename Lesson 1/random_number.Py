@@ -1,9 +1,7 @@
 """
 Random number guesser
 """
-# pylint: disable=import-self
 from random import randrange
-
 
 randomNumber = randrange(1, 10)
 print(randomNumber)
