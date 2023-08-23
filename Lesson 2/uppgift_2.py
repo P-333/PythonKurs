@@ -1,3 +1,7 @@
+"""
+SIMPLE CALCULATOR
+"""
+
 print("Välkommen till miniräknaren")
 
 print("Du kan välja mellan dessa operatorer: ")
@@ -13,7 +17,7 @@ if operator in ("+", "-", "*", "/"):
     b = int(input("Tal 2: "))
 
     if operator == "+":
-        print(a+b) 
+        print(a+b)
     elif operator == "-":
         print(a-b)
     elif operator == "*":

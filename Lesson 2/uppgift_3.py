@@ -1,3 +1,6 @@
+"""
+Simple time calculator
+"""
 import sys
 
 print("Välkommen till att räkna ut tiden")
@@ -7,7 +10,6 @@ startTidTimme = int(input("Vilken starttimme(00 till 23): "))
 if startTidTimme > 23 or startTidTimme < 0:
     print("Måste välja ett tal mellan 00 och 23")
     sys.exit("Fel tid angiven")
-    
 
 startTidMinut = int(input("Vilken startminut: "))
 

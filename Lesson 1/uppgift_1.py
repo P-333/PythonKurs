@@ -1,3 +1,6 @@
+"""
+Uppgift 1
+"""
 print(10 * 5)
 print(10/2)
 print(5 != 10)
@@ -5,10 +8,10 @@ print(5 == 10 or 4 == 4)
 
 
 
-string = ""
+STRING = ""
 i = 0
-while (i < 10):
+while i < 10:
     i += 1
-    string += "_ "
+    STRING += "_ "
 
-print(string)
+print(STRING)

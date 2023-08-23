@@ -1,8 +1,10 @@
-# This program computes the number of seconds in a given number of hours
+"""
+This program computes the number of seconds in a given number of hours
+"""
 
-hours = 2
-seconds_In_Hour = 3600
-print("Hours:", hours)
-print("Seconds in Hours:", hours * seconds_In_Hour)
+HOURS = 2
+SECOUNDS_IN_HOUR = 3600
+print("Hours:", HOURS)
+print("Seconds in Hours:", HOURS * SECOUNDS_IN_HOUR)
 
 # here we should also print "Goodbye"
