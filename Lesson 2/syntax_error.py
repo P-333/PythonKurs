@@ -1,3 +1,6 @@
+"""
+Syntax error
+"""
 s = input('Ge två tal, x och y:')
 
 s = q.split() # Felet ligger här, ska inte vara "q" utan "s"

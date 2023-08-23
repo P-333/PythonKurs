@@ -1,3 +1,6 @@
+"""
+Year calculator
+"""
 while True:
     year = int(input("Vilket år vill du titta skottår eller inte?"))
 
