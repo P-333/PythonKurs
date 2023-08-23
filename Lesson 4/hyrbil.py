@@ -1,5 +1,5 @@
 """
-Tar in ett kilometer tal och tittar om Hyrbil A eller Hyrbil B är billigas
+Tar in ett kilometer tal och tittar om Hyrbil A eller Hyrbil B är billigast
 """
 try:
     resDistans = float(input("Hur många km ska du resa? "))
@@ -13,4 +13,3 @@ if HYR_BIL_B_KOSTNAD > HYB_BIL_A_KOSTNAD:
     print(f"Hyrbil A är billigast, {HYB_BIL_A_KOSTNAD} kr istället för {HYR_BIL_B_KOSTNAD} kr")
 else:
     print(f"Hyrbil B är billigast, {HYR_BIL_B_KOSTNAD} kr istället för {HYB_BIL_A_KOSTNAD} kr")
-    
